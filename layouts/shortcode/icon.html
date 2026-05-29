@@ -1,0 +1,17 @@
+{{ $name := .Get "name" }}
+{{ $size := .Get "size" | default "20" }}
+{{ $class := .Get "class" | default "" }}
+{{ $color := .Get "color" | default "currentColor" }}
+
+{{ $path := printf "icons/%s.svg" $name }}
+{{ $icon := resources.Get $path }}
+
+<span
+  class="svg-icon {{ $class }}"
+    style="display:inline-flex;align-items:center;justify-content:center;width:{{ $size }}px;height:{{ $size }}px;color:{{ $color }};"
+    >
+      {{ $icon.Content
+          | replaceRE `fill="[^"]*"` `fill="currentColor"`
+              | replaceRE `stroke="[^"]*"` `stroke="currentColor"`
+                  | safeHTML }}
+                  </span>
