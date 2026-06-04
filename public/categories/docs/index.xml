@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>KeyTech</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on KeyTech</description>
+    <title>Docs on KeyTech</title>
+    <link>//localhost:1313/categories/docs/</link>
+    <description>Recent content in Docs on KeyTech</description>
     <generator>Hugo</generator>
     <language>it-it</language>
     <lastBuildDate>Fri, 29 May 2026 07:54:09 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sito</title>
       <link>//localhost:1313/docs/elementi/</link>
@@ -20,27 +20,6 @@
 &lt;p&gt;• &lt;strong&gt;Snippet&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Sono box che rimandano ad esempio ad un altro articolo.
 altro elemento importante da avere nel sito&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Keyboards</title>
-      <link>//localhost:1313/keyboards/</link>
-      <pubDate>Thu, 28 May 2026 19:17:38 +0000</pubDate>
-      <guid>//localhost:1313/keyboards/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Guides</title>
-      <link>//localhost:1313/guides/</link>
-      <pubDate>Thu, 28 May 2026 19:17:06 +0000</pubDate>
-      <guid>//localhost:1313/guides/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Audio</title>
-      <link>//localhost:1313/audio/</link>
-      <pubDate>Thu, 28 May 2026 19:16:05 +0000</pubDate>
-      <guid>//localhost:1313/audio/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

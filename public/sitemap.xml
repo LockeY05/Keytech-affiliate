@@ -11,7 +11,7 @@
     <loc>//localhost:1313/</loc>
     <lastmod>2026-05-29T07:55:59+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/docs/sito/</loc>
+    <loc>//localhost:1313/docs/elementi/</loc>
     <lastmod>2026-05-29T07:54:09+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/keyboards/</loc>
@@ -21,6 +21,18 @@
     <lastmod>2026-05-28T19:17:06+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
+    <lastmod>2026-05-28T19:16:37+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/guide/</loc>
+    <lastmod>2026-05-28T19:16:37+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/keyboards/</loc>
+    <lastmod>2026-05-28T19:16:37+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/news/</loc>
+    <lastmod>2026-05-28T19:16:37+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/recensioni/</loc>
     <lastmod>2026-05-28T19:16:37+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/audio/</loc>

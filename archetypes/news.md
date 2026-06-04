@@ -22,18 +22,13 @@ ShowReadingTime = true
 ShowWordCount = true
 ShowShareButtons = true
 
-cover = ""
-coverAlt = ""
-coverCaption = ""
-
+cover = []
+coverAlt = []
 keywords = []
 
-canonicalURL = ""
+canonicalURL = []
 
 comments = false
-
-[schema]
-type = "NewsArticle"
 
 +++
 

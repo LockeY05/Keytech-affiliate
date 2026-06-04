@@ -22,9 +22,6 @@ ShowReadingTime = true
 ShowWordCount = true
 ShowShareButtons = true
 
-cover = ""
-coverAlt = ""
-coverCaption = ""
 
 keywords = []
 
@@ -37,3 +34,4 @@ type = "NewsArticle"
 
 +++
 
+Pagina principale con i doc che servno a me
