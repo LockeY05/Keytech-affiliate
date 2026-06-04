@@ -8,7 +8,7 @@ author = "KeyTech"
 description = ""
 summary = ""
 
-tags = ["accessori pc", "tastiere compatte" "budget"]
+tags = ["accessori pc", "tastiere compatte", "budget"]
 categories = ["news"]
 
 # Opzionale:
