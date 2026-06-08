@@ -99,8 +99,8 @@ Title = "KeyTech"
 Content = "Recensioni, confronti, news e guide sul mondo tech."
 
 [[params.socialIcons]]
-name = "github"
-url = "https://github.com/"
+#name = "github"
+#url = "https://github.com/"
 
 # [[params.socialIcons]]
 # name = "youtube"
@@ -118,37 +118,37 @@ url = "https://github.com/"
 identifier = "home"
 name = "Home"
 url = "/"
-weight = 1
+weight = 10
 
 [[menu.main]]
 identifier = "news"
 name = "News"
 url = "/news/"
-weight = 2
+weight = 20
 
 [[menu.main]]
 identifier = "recensioni"
 name = "Recensioni"
 url = "/recensioni/"
-weight = 3
+weight = 30
 
 [[menu.main]]
-#identifier = "categories"
-#name = "Categorie"
-#url = "/categories/"
-#weight = 4
+identifier = "categories"
+name = "Categorie"
+url = "/categories/"
+weight = 40
 
 [[menu.main]]
 identifier = "tags"
 name = "Tag"
 url = "/tags/"
-weight = 5
+weight = 50
 
 [[menu.main]]
 identifier = "series"
 name = "Serie"
 url = "/series/"
-weight = 6
+weight = 60
 
 # ------------------------------
 # MARKUP
@@ -215,10 +215,10 @@ privacyEnhanced = true
 # COVER SETTINGS
 # ------------------------------
 
-# [params.cover]
-# hidden = false
-# hiddenInList = false
-# hiddenInSingle = false
+[params.cover]
+hidden = false
+hiddenInList = false
+hiddenInSingle = false
 
 # ------------------------------
 # EDIT POST

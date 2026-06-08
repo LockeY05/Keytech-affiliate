@@ -1,0 +1,94 @@
+/* === FONT === */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* === TIPOGRAFIA === */
+body {
+    font-family: 'Inter', system-ui, sans-serif;
+        font-size: 16px;
+            line-height: 1.7;
+            }
+            h1 { font-size: 2rem;    font-weight: 700; line-height: 1.2; letter-spacing: -0.03em; }
+            h2 { font-size: 1.5rem;  font-weight: 600; line-height: 1.3; letter-spacing: -0.02em; }
+            h3 { font-size: 1.25rem; font-weight: 600; line-height: 1.4; }
+            h4 { font-size: 1.1rem;  font-weight: 600; }
+
+            .post-title  { font-size: 1.2rem; font-weight: 600; letter-spacing: -0.02em; }
+            .post-content { font-size: 1.05rem; line-height: 1.8; }
+            .post-meta   { font-size: 0.85rem; }
+
+            code     { font-family: 'JetBrains Mono', monospace; font-size: 0.875rem; }
+            pre code { font-size: 0.85rem; line-height: 1.6; }
+
+            /* === VARIABILI TEMA CHIARO === */
+            :root {
+                --theme:          #f0f8ff;
+                    --entry:          #ffffff;
+                        --primary:        #0F2854;
+                            --secondary:      #1C4D8D;
+                                --tertiary:       #e1f3fb;
+                                    --content:        #0F2854;
+                                        --hljs-bg:        #1C4D8D;
+                                            --code-bg:        #e8f4fc;
+                                                --code-block-bg:  #1C4D8D;
+                                                    --border:         #BDE8F5;
+                                                    }
+
+                                                    /* === VARIABILI TEMA SCURO === */
+                                                    .dark {
+                                                        --theme:          #0F2854 !important;
+                                                            --entry:          #1C4D8D !important;
+                                                                --primary:        #BDE8F5 !important;
+                                                                    --secondary:      #4988C4 !important;
+                                                                        --tertiary:       #163669 !important;
+                                                                            --content:        #BDE8F5 !important;
+                                                                                --hljs-bg:        #0a1e3d !important;
+                                                                                    --code-bg:        #163669 !important;
+                                                                                        --code-block-bg:  #0a1e3d !important;
+                                                                                            --border:         #4988C4 !important;
+                                                                                            }
+
+                                                                                            /* === LINK === */
+                                                                                            a             { color: #1C4D8D; }
+                                                                                            .dark a       { color: #4988C4; }
+                                                                                            a:hover       { color: #4988C4; }
+                                                                                            .dark a:hover { color: #BDE8F5; }
+
+                                                                                            /* === HERO SECTION === */
+                                                                                            .home-info-container {
+                                                                                                background: linear-gradient(135deg, #0F2854, #1C4D8D);
+                                                                                                    border: none;
+                                                                                                        border-radius: 12px;
+                                                                                                            padding: 2.5rem 2rem;
+                                                                                                                margin-bottom: 2rem;
+                                                                                                                }
+                                                                                                                .home-info-container h1,
+                                                                                                                .home-info-container .hi-title {
+                                                                                                                    color: #BDE8F5 !important;
+                                                                                                                        font-size: 2rem;
+                                                                                                                            font-weight: 700;
+                                                                                                                            }
+                                                                                                                            .home-info-container p,
+                                                                                                                            .home-info-container .hi-content {
+                                                                                                                                color: #BDE8F5 !important;
+                                                                                                                                    font-size: 1.05rem;
+                                                                                                                                    }
+
+                                                                                                                                    /* === CARD ARTICOLI === */
+                                                                                                                                    .post-entry {
+                                                                                                                                        border: 1px solid var(--border);
+                                                                                                                                            border-radius: 8px;
+                                                                                                                                                transition: border-color 0.2s, transform 0.2s;
+                                                                                                                                                }
+                                                                                                                                                .post-entry:hover {
+                                                                                                                                                    border-color: #4988C4;
+                                                                                                                                                        transform: translateY(-2px);
+                                                                                                                                                        }
+                                                                                                                                                        .dark .post-entry:hover { border-color: #BDE8F5; }
+
+                                                                                                                                                        /* === LOGO NAVBAR === */
+                                                                                                                                                        .logo a, .logo span {
+                                                                                                                                                            font-weight: 700;
+                                                                                                                                                                letter-spacing: -0.02em;
+                                                                                                                                                                    color: #0F2854 !important;
+                                                                                                                                                                    }
+                                                                                                                                                                    .dark .logo a, .dark .logo span { color: #BDE8F5 !important; }
