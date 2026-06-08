@@ -13,19 +13,19 @@ Ogni idea o feature da inserire nel sito sara inserito in questo documento come 
 
 Facciamo una lista di feature che dovranno essere presenti nel sito:
 
-- [] Logo
-- [] Banner homepage hero
-- [] Abbellire i TAG
-- [] Controllare che pagine categorie e tags vengano visualizzate con immagini
-- [] Ottimizzare SEO
+- [ ] Logo
+- [ ] Banner homepage hero
+- [ ] Abbellire i TAG
+- [ ] Controllare che pagine categorie e tags vengano visualizzate con immagini
+- [ ] Ottimizzare SEO
 
 ### Branding
 
 Una ljsta di cose da fare per ottimizzare il brand
 
-- [] Creare mail personalizzata
-- [] Registrazione a cloudinary
-- [] Registrazione ai social
+- [ ] Creare mail personalizzata
+- [ ] Registrazione a cloudinary
+- [ ] Registrazione ai social
 
 ### Shortcode
 
