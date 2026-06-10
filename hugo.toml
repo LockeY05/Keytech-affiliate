@@ -3,7 +3,9 @@ languageCode = "it-it"
 title = "KeyTech"
 theme = "PaperMod"
 
-paginate = 10
+# NUOVO — sintassi corretta da Hugo v0.128.0+
+[pagination]
+  pagerSize = 5
 
 enableRobotsTXT = true
 buildDrafts = false
