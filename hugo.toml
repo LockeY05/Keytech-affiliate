@@ -86,9 +86,9 @@ text = "KeyTech"
 # iconHeight = 35
 
 [params.profileMode]
-enabled = false
+enabled = true
 title = "KeyTech"
-subtitle = "Recensioni e news dal mondo tech"
+subtitle = "Recensioni e opinioni sul mondo tech"
 # imageUrl = ""
 # imageTitle = ""
 # imageWidth = 120
