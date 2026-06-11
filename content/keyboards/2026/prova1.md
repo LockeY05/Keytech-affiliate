@@ -1,7 +1,7 @@
 +++
-title       = "Prova1"
-date        = "2026-06-11T23:17:13Z"
-lastmod     = "2026-06-11T23:17:13Z"
+title = "Prova1"
+date = "2026-06-11T23:17:13Z"
+lastmod = "2026-06-11T23:17:13Z"
 publishDate = "2026-06-11T23:17:13Z"
 # expiryDate = ""  # Decommenta per far scadere il contenuto
 
@@ -22,14 +22,13 @@ aliases = []
 author     = "KeyTech"
 tags       = ["razor", "tastiere compatte"]
 categories = ["keyboard"]
-series     = []
 
 ============================================================
 # SEO — META TAGS (generati da Hugo nel <head>)
 ===========================================================
 
 # <meta name="description"> — 150-160 caratteri, include keyword primaria
-description = ""
+description = "articolo di prova"
 
 # <meta name="keywords"> — peso basso per Google, utile per Bing e motori minori
 keywords = []
@@ -60,8 +59,6 @@ robotsNoIndex = false
 # "images" è il FALLBACK se cover.image è vuota.
 # Ordine priorità: cover.image → images[] → Page Bundle (feature/cover/thumbnail)
 ============================================================
-
-images = []
 
 # Per pagine (non post): supporta anche audio e video per og:audio / og:video
 # audio  = []
@@ -120,7 +117,7 @@ images = []
 
                         comments = false
 
-                        +++
++++
 
 
 peova di testo
@@ -129,4 +126,4 @@ peova di testo
 
 Giorno dopo giorno sempre di giorno durante il giorno poi si fa giorno.
 
----
+--------
