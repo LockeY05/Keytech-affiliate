@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://keytechservice.netlify.app/"
 languageCode = "it-it"
 title = "KeyTech"
 theme = "PaperMod"
@@ -73,7 +73,7 @@ hideSummary = false
 showtoc = true
 tocopen = false
 
-mainSections = ["news", "recensioni"]
+mainSections = ["news", "recensioni", "guides"]
 
 [params.assets]
 disableHLJS = false
@@ -146,11 +146,11 @@ name = "Tag"
 url = "/tags/"
 weight = 50
 
-[[menu.main]]
-identifier = "series"
-name = "Serie"
-url = "/series/"
-weight = 60
+#[[menu.main]]
+#identifier = "series"
+#name = "Serie"
+#url = "/series/"
+#weight = 60
 
 # ------------------------------
 # MARKUP

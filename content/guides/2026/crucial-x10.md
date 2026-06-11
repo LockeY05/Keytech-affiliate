@@ -16,6 +16,8 @@ img = ""
 
 +++
 
+![SSD esterno crucial x10 pro]()
+
 Se hai notato che il tuo **Crucial X10 Pro** si surriscalda durante le sessioni di gioco piú lunghe, purtroppo non sei il solo.
 Sono infatti molti gli utenti che hanno segnalato lo stesso problema con il loro **SSD** esterno: si scalda troppo quando viene utilizzato per eseguire giochi tripla AAA oppure quando occorre trasferire file di grandi dimensioni, oppure ancora gestire librerie **Steam** installate su unitá esterne.
 
@@ -27,14 +29,10 @@ In questa guida, andremo a capire inseme le cause di questo problema, capiremo q
 ## Perchè Crucial X10 Pro si surriscalda con i giochi?
 
 Prima di allarmarsi, cerchiamo di capire come funziona Crucial X10.
+Si tratta di un SSD esterno principalmente utilizzato per il gaming, basato su tecnologia NVMe che a differenza di quelli classici, questo dispositivo é stato progettato per trasferire enormi quantitá di dati in tempi molto ridotti rispetto agli altri.
 
 
 
-
-
-Perché il Crucial X10 Pro si surriscalda con i giochi PC?
-
-Prima di preoccuparsi, è importante capire che il Crucial X10 Pro gaming è un SSD esterno ad alte prestazioni basato su tecnologia NVMe. A differenza dei tradizionali hard disk esterni, questo dispositivo è progettato per trasferire enormi quantità di dati in tempi estremamente ridotti.
 
 Quando si installano giochi moderni, si utilizzano tecnologie come DirectStorage oppure si caricano continuamente texture ad alta risoluzione da una Steam Library esterna, il controller interno e la memoria flash lavorano in modo costante generando inevitabilmente calore.
 
