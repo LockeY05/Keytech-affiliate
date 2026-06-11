@@ -16,16 +16,15 @@ linkTitle = ""
 # aliases: redirect da vecchi URL verso questo — fondamentale in caso di migrazione
 aliases = []
 
-============================================================
 # AUTORE E TASSONOMIA
-============================================================
+
 author     = "KeyTech"
 tags       = ["razor", "tastiere compatte"]
 categories = ["keyboard"]
 
-============================================================
+
 # SEO — META TAGS (generati da Hugo nel <head>)
-===========================================================
+
 
 # <meta name="description"> — 150-160 caratteri, include keyword primaria
 description = "articolo di prova"
@@ -53,27 +52,23 @@ CanonicalLinkText  = ""
 # Usare per pagine thin, tag pages, contenuti duplicati
 robotsNoIndex = false
 
-============================================================
+
 # OPEN GRAPH + TWITTER CARDS
 # Papermod genera questi automaticamente dalla cover.
 # "images" è il FALLBACK se cover.image è vuota.
 # Ordine priorità: cover.image → images[] → Page Bundle (feature/cover/thumbnail)
-============================================================
+
 
 # Per pagine (non post): supporta anche audio e video per og:audio / og:video
 # audio  = []
 # videos = []
 
 
-============================================================
 # COVER IMAGE
-============================================================
+
 
 [cover]
-  # Path relativo a /static/ OPPURE URL assoluto
-    # Es: image = "/images/news/titolo-post.webp"
-      # Es: image = "https://example.com/img.jpg"
-        image    = ""
+        image    = "https://res.cloudinary.com/dyzmnowin/image/upload/q_auto/f_auto/v1781211497/crucial_x10_pro_golf_SSD_tfr0wy.jpg"
           alt      = ""      # Testo alt — SEO immagini + accessibilità
             caption  = ""      # Didascalia (supporta Markdown)
 
@@ -86,9 +81,8 @@ robotsNoIndex = false
                       # hidden = true → nasconde la cover visivamente MA la mantiene in og:image / twitter:image
                         hidden = false
 
-============================================================
+
 # PAPERMOD — UI E COMPORTAMENTO
-============================================================
 
                         ShowToc            = true
                         TocOpen            = false
