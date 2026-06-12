@@ -8,4 +8,8 @@ title = 'Keyboards'
     img = "https://res.cloudinary.com/dyzmnowin/image/upload/q_auto/f_auto/v1781219110/keyboard_cover_categorie_puk2py.png"
 
     alt = "Keywords - KeyTech"
+
+[cascade.params] 
+  showOnHomepage = true
+
 +++

@@ -112,6 +112,15 @@ Content = "Recensioni, confronti, news e guide sul mondo tech."
 # name = "x"
 # url = "https://x.com/"
 
+
+[permalinks]
+  [permalinks.page]
+      keyboards  = "/keyboards/:slug/"
+          news       = "/news/:slug/"
+              recensioni = "/recensioni/:slug/"
+                  guides     = "/guides/:slug/"
+                      audio      = "/audio/:slug/"
+
 # ------------------------------
 # MENU
 # ------------------------------
