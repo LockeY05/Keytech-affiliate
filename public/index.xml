@@ -2,11 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>KeyTech</title>
-    <link>/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on KeyTech</description>
     <generator>Hugo</generator>
     <language>it-it</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Jun 2026 23:17:13 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prova1</title>
+      <link>http://localhost:1313/keyboards/prova-1/</link>
+      <pubDate>Thu, 11 Jun 2026 23:17:13 +0000</pubDate>
+      <guid>http://localhost:1313/keyboards/prova-1/</guid>
+      <description>articolo di prova</description>
+    </item>
   </channel>
 </rss>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tastiere Compatte on KeyTech</title>
-    <link>http://localhost:1313/tags/tastiere-compatte/</link>
-    <description>Recent content in Tastiere Compatte on KeyTech</description>
+    <title>Razor on KeyTech</title>
+    <link>http://localhost:1313/tags/razor/</link>
+    <description>Recent content in Razor on KeyTech</description>
     <generator>Hugo</generator>
     <language>it-it</language>
     <lastBuildDate>Thu, 11 Jun 2026 23:17:13 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tastiere-compatte/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/razor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prova1</title>
       <link>http://localhost:1313/keyboards/prova-1/</link>
