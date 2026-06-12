@@ -24,7 +24,7 @@ minifyOutput = true
 
 [taxonomies]
 tag = "tags"
-category = "categories"
+category = "categorie"
 series = "series"
 
 # ------------------------------
@@ -86,15 +86,6 @@ apple_touch_icon = "apple-touch-icon.png"
 text = "KeyTech"
 # icon = "/apple-touch-icon.png"
 # iconHeight = 35
-
-[params.profileMode]
-enabled = true
-title = "KeyTech"
-subtitle = "Recensioni e opinioni sul mondo tech"
-# imageUrl = ""
-# imageTitle = ""
-# imageWidth = 120
-# imageHeight = 120
 
 [params.homeInfoParams]
 Title = "KeyTech"
