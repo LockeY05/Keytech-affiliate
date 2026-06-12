@@ -73,7 +73,7 @@ hideSummary = false
 showtoc = true
 tocopen = false
 
-mainSections = ["news", "recensioni", "guides"]
+mainSections = ["news", "recensioni", "guides", "keyboards"]
 
 [params.assets]
 disableHLJS = false
@@ -150,9 +150,9 @@ url = "/categories/"
 weight = 40
 
 [[menu.main]]
-identifier = "tags"
-name = "Tag"
-url = "/tags/"
+identifier = "keyboards"
+name = "Keyboards"
+url = "/keyboards/"
 weight = 50
 
 #[[menu.main]]
@@ -228,7 +228,7 @@ privacyEnhanced = true
 
 [params.cover]
 hidden = false
-hiddenInList = false
+hiddenInList = true
 hiddenInSingle = false
 
 # ------------------------------
