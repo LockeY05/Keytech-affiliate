@@ -219,7 +219,7 @@ privacyEnhanced = true
 
 [params.cover]
 hidden = false
-hiddenInList = true
+hiddenInList = false
 hiddenInSingle = false
 
 # ------------------------------
