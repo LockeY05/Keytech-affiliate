@@ -2,33 +2,33 @@ name: Deploy to Cloudflare Pages
 
 on:
   push:
-      branches: [main]
+    branches: [main]
 
-      jobs:
-        deploy:
-            runs-on: ubuntu-latest
-                steps:
-                      - uses: actions/checkout@v4
-                              with:
-                                        submodules: recursive
-                                                  fetch-depth: 0
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
 
-                                                        - name: Setup Hugo
-                                                                uses: peaceiris/actions-hugo@v3
-                                                                        with:
-                                                                                  hugo-version: '0.157.0'
-                                                                                            extended: true
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.157.0'
+          extended: true
 
-                                                                                                  - name: Build
-                                                                                                          run: hugo --gc --minify
-                                                                                                                  env:
-                                                                                                                            HUGO_ENV: production
+      - name: Build
+        run: hugo --gc --minify
+        env:
+          HUGO_ENV: production
 
-                                                                                                                                  - name: Deploy
-                                                                                                                                          uses: cloudflare/pages-action@v1
-                                                                                                                                                  with:
-                                                                                                                                                            apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-                                                                                                                                                                      accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-                                                                                                                                                                                projectName: keytech
-                                                                                                                                                                                          directory: public
-                                                                                                                                                                                                    gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: keytech
+          directory: public
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
