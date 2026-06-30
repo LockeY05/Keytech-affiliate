@@ -2,6 +2,7 @@
 title = "Guide"
 description = "Guide pratiche e tutorial"
 summary = "Guide pratiche e semplici"
+categories = ["guide"]
 
 [cover]
   image = "https://res.cloudinary.com/TUO-CLOUD-NAME/image/upload/categoria-guides.jpg"
