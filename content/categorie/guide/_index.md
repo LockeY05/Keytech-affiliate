@@ -1,7 +1,7 @@
 +++
 title = "Guide"
 description = "Guide pratiche e tutorial"
-summary = "Tutte le guide pratiche e i tutorial del sito."
+summary = "Tutte le guide pratiche e i tutorial del sito"
 
 [cover]
   image = "https://res.cloudinary.com/TUO-CLOUD-NAME/image/upload/categoria-guides.jpg"
