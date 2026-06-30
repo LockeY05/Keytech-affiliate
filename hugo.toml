@@ -73,7 +73,7 @@ hideSummary = false
 showtoc = true
 tocopen = false
 
-mainSections = ["news", "recensioni", "guides", "keyboards"]
+mainSections = ["news", "recensioni", "guide", "keyboards"]
 
 [params.assets]
 disableHLJS = false

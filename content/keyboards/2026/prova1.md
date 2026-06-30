@@ -7,12 +7,6 @@ publishDate = "2026-06-11T23:17:13Z"
 
 draft = false
 
-# linkTitle: versione breve del titolo per menu/liste
-linkTitle = ""
-
-# weight: 0 = ordine cronologico | >0 = pinna il post in cima alla lista
-#weight = 0
-
 # aliases: redirect da vecchi URL verso questo — fondamentale in caso di migrazione
 aliases = []
 
@@ -22,14 +16,9 @@ author     = "KeyTech"
 tags       = ["razor", "tastiere compatte"]
 category = ["keyboards"]
 
-
 # SEO — META TAGS (generati da Hugo nel <head>)
 
-
-# <meta name="description"> — 150-160 caratteri, include keyword primaria
 description = "articolo di prova"
-
-# <meta name="keywords"> — peso basso per Google, utile per Bing e motori minori
 keywords = []
 
 # summary: usato nelle liste e come og:description se description è vuota
