@@ -1,6 +1,6 @@
 +++
 title = "Recensioni"
-description = "Recensioni approfondite e oneste su prodotti tech, periferiche e accessori."
+description = "Recensioni approfondite su prodotti tech"
 summary = "Recensioni dettagliate dei prodotti."
 
 [cover]
@@ -9,10 +9,10 @@ summary = "Recensioni dettagliate dei prodotti."
    relative = false
 
 [params]
-ShowToc = false
-ShowReadingTime = false
+  ShowToc = false
+  ShowReadingTime = false
 
 [sitemap]
-priority = 0.8
+  priority = 0.8
 +++
 
