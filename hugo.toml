@@ -140,7 +140,6 @@ name = "Blog"
 url = "/categorie/"
 weight = 40
 
-
 #[[menu.main]]
 #identifier = "series"
 #name = "Serie"

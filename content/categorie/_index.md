@@ -7,14 +7,9 @@ draft = false
 # AUTORE E TASSONOMIA
 author     = "KeyTech"
 tags       = []
-categories = ["categorie"]
-
 # SEO — META TAGS (generati da Hugo nel <head>)
 
-# <meta name="description"> — 150-160 caratteri, include keyword primaria
 description = ""
-
-# <meta name="keywords"> — peso basso per Google, utile per Bing e motori minori
 keywords = []
 
 # summary: usato nelle liste e come og:description se description è vuota
@@ -28,8 +23,6 @@ slug = ""
 # canonicalURL: <link rel="canonical"> — critica contro duplicate content
 # Lascia vuoto: Hugo la genera automaticamente con il permalink
 canonicalURL = ""
-
-# Mostra il testo "Pubblicato originariamente su [hostname]" nel post
 ShowCanonicalLink  = false
 CanonicalLinkText  = ""
 
@@ -43,11 +36,6 @@ robotsNoIndex = false
 # Ordine priorità: cover.image → images[] → Page Bundle (feature/cover/thumbnail)
 
 images = []
-
-# Per pagine (non post): supporta anche audio e video per og:audio / og:video
-# audio  = []
-# videos = []
-
 
 # COVER IMAGE
 

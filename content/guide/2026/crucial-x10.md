@@ -4,7 +4,7 @@ date = '2026-05-28T19:17:06Z'
 draft = true
 
 author = "KeyTech"
-categories = ["guide"]
+category = ["guide"]
 tags = ["crucial X10 pro", "SSD esterno"]
 description = ["Crucial X10 Pro perche si riscalda"]
 
