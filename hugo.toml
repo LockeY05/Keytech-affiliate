@@ -109,7 +109,7 @@ Content = "Recensioni, confronti, news e guide sul mondo tech."
       keyboards  = "/keyboards/:slug/"
           news       = "/news/:slug/"
               recensioni = "/recensioni/:slug/"
-                  guides     = "/guides/:slug/"
+                  guide     = "/guide/:slug/"
                       audio      = "/audio/:slug/"
 
 # ------------------------------
@@ -135,8 +135,8 @@ url = "/recensioni/"
 weight = 30
 
 [[menu.main]]
-identifier = "blog"
-name = "Categorie"
+identifier = "categorie"
+name = "Blog"
 url = "/categorie/"
 weight = 40
 
