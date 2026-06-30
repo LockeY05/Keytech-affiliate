@@ -9,7 +9,6 @@ description = "Le recensioni dei prodotti tech"
 summary = ""
 
 tags = []
-category= ["recensioni"]
 
 # opzionale
 ShowBreadCrumbs = true
@@ -25,9 +24,6 @@ ShowShareButtons = true
 keywords = []
 canonicalURL = ""
 comments = false
-
-[schema]
-type = "Review"
 ShowOnHomepage = true
 
 +++

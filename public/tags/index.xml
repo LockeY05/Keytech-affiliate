@@ -22,5 +22,33 @@
       <guid>http://localhost:1313/tags/tastiere-compatte/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Accessori Pc</title>
+      <link>http://localhost:1313/tags/accessori-pc/</link>
+      <pubDate>Thu, 28 May 2026 19:17:06 +0000</pubDate>
+      <guid>http://localhost:1313/tags/accessori-pc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Budget</title>
+      <link>http://localhost:1313/tags/budget/</link>
+      <pubDate>Thu, 28 May 2026 19:17:06 +0000</pubDate>
+      <guid>http://localhost:1313/tags/budget/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crucial X10 Pro</title>
+      <link>http://localhost:1313/tags/crucial-x10-pro/</link>
+      <pubDate>Thu, 28 May 2026 19:17:06 +0000</pubDate>
+      <guid>http://localhost:1313/tags/crucial-x10-pro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SSD Esterno</title>
+      <link>http://localhost:1313/tags/ssd-esterno/</link>
+      <pubDate>Thu, 28 May 2026 19:17:06 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ssd-esterno/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
