@@ -1,6 +1,6 @@
 +++
 title = "Guide"
-description = "Guide pratiche e tutorial passo-passo per imparare a usare al meglio i tuoi dispositivi e software."
+description = "Guide pratiche e tutorial"
 summary = "Tutte le guide pratiche e i tutorial del sito."
 
 [cover]
@@ -15,5 +15,3 @@ ShowReadingTime = false
 [sitemap]
 priority = 0.8
 +++
-
-https://keytech.pages.dev/categories/
