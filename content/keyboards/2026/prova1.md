@@ -20,7 +20,7 @@ aliases = []
 
 author     = "KeyTech"
 tags       = ["razor", "tastiere compatte"]
-categories = ["keyboard"]
+categories = ["keyboards"]
 
 
 # SEO — META TAGS (generati da Hugo nel <head>)
