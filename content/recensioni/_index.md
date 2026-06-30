@@ -9,28 +9,23 @@ description = "Le recensioni dei prodotti tech"
 summary = ""
 
 tags = []
-categories = ["recensioni"]
+category= ["recensioni"]
 
 # opzionale
-series = []
-
-ShowToc = true
-TocOpen = true
-
 ShowBreadCrumbs = true
 ShowReadingTime = true
 ShowWordCount = true
 ShowShareButtons = true
 
-cover = ""
-coverAlt = ""
-coverCaption = ""
+[
+    cover
+]
+
+      coverAlt = ""
+      coverCaption = ""
 
 keywords = []
-
 canonicalURL = ""
-
-
 comments = false
 
 [schema]
