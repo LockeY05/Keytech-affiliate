@@ -17,9 +17,7 @@ ShowReadingTime = true
 ShowWordCount = true
 ShowShareButtons = true
 
-[
-    cover
-]
+[cover]
 
       coverAlt = ""
       coverCaption = ""
