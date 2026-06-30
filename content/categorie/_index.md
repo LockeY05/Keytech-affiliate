@@ -1,24 +1,15 @@
 +++
-title       = "{{ replace .Name "-" " " | title }}"
-date        = "{{ .Date }}"
-lastmod     = "{{ .Date }}"
-publishDate = "{{ .Date }}"
-draft = true
 
-# aliases: redirect da vecchi URL verso questo — fondamentale in caso di migrazione
-aliases = []
+title = "Categorie Blog"
+date = "2026-06-30T14:37:49Z"
+draft = false
 
-============================================================
 # AUTORE E TASSONOMIA
-============================================================
 author     = "KeyTech"
 tags       = []
-categories = []
-series     = []
+categories = ["categorie"]
 
-============================================================
 # SEO — META TAGS (generati da Hugo nel <head>)
-===========================================================
 
 # <meta name="description"> — 150-160 caratteri, include keyword primaria
 description = ""
@@ -46,12 +37,10 @@ CanonicalLinkText  = ""
 # Usare per pagine thin, tag pages, contenuti duplicati
 robotsNoIndex = false
 
-============================================================
 # OPEN GRAPH + TWITTER CARDS
 # Papermod genera questi automaticamente dalla cover.
 # "images" è il FALLBACK se cover.image è vuota.
 # Ordine priorità: cover.image → images[] → Page Bundle (feature/cover/thumbnail)
-============================================================
 
 images = []
 
@@ -60,11 +49,10 @@ images = []
 # videos = []
 
 
-============================================================
 # COVER IMAGE
-============================================================
 
 [cover]
+  # Path relativo a /static/ OPPURE URL assoluto
     # Es: image = "/images/news/titolo-post.webp"
       # Es: image = "https://example.com/img.jpg"
         image    = ""
@@ -74,11 +62,6 @@ images = []
               # relative = true → obbligatorio se usi Page Bundle (index.md nella stessa cartella)
                 relative = false
 
-                  # responsiveImages = true → Hugo genera srcset automatico (ottimizza LCP / Core Web Vitals)
-                    responsiveImages = true
-
-                      # hidden = true → nasconde la cover visivamente MA la mantiene in og:image / twitter:image
-                        hidden = false
 
 
 +++

@@ -135,16 +135,11 @@ url = "/recensioni/"
 weight = 30
 
 [[menu.main]]
-identifier = "categories"
+identifier = "blog"
 name = "Categorie"
-url = "/categories/"
+url = "/categorie/"
 weight = 40
 
-[[menu.main]]
-identifier = "keyboards"
-name = "Keyboards"
-url = "/keyboards/"
-weight = 50
 
 #[[menu.main]]
 #identifier = "series"
@@ -235,8 +230,8 @@ hiddenInSingle = false
 # SEARCH PAGE
 # ------------------------------
 
-[[menu.main]]
-identifier = "search"
-name = "Search"
-url = "/search/"
-weight = 10
+#[[menu.main]]
+#identifier = "search"
+#name = "Search"
+#url = "/search/"
+#weight = 10
