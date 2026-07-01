@@ -22,9 +22,9 @@ ShowReadingTime = true
 ShowWordCount = true
 ShowShareButtons = true
 
-cover = ""
-coverAlt = ""
-coverCaption = ""
+[cover]
+    coverAlt = ""
+    coverCaption = ""
 
 keywords = []
 
