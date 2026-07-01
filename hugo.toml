@@ -115,6 +115,9 @@ Content = "Recensioni, confronti, news e guide sul mondo tech."
     [permalinks.term]
          categories = "/categorie/:slug/"
 
+    [permalinks.taxonomy] 
+          categories = "/categorie/"
+
 
 # ------------------------------
 # MENU
@@ -139,7 +142,7 @@ url = "/recensioni/"
 weight = 30
 
 [[menu.main]]
-identifier = "categorie"
+identifier = "categories"
 name = "Blog"
 url = "/categorie/"
 weight = 40
