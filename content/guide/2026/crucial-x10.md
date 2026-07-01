@@ -12,21 +12,25 @@ toc = true
 ShowToc = true
 
 [cover]
-img = ""
+   img = "https://res.cloudinary.com/dyzmnowin/image/upload/v1781211497/crucial_x10_pro_golf_SSD_tfr0wy.jpg"
+   alt = "SSD esterno Crucial X10 pro"
 
 +++
-
-![SSD esterno crucial x10 pro]()
 
 Se hai notato che il tuo **Crucial X10 Pro** si surriscalda durante le sessioni di gioco piú lunghe, purtroppo non sei il solo.
 Sono infatti molti gli utenti che hanno segnalato lo stesso problema con il loro **SSD** esterno: si scalda troppo quando viene utilizzato per eseguire giochi tripla AAA oppure quando occorre trasferire file di grandi dimensioni, oppure ancora gestire librerie **Steam** installate su unitá esterne.
 
 Il problema si fa sentire principalmente sui sistemi **Windows** cbe sono dotati di porta USB-C ad alte prestazioni dove **Crucial X10 Pro** puó raggiungere velocita superiori ai 2000 MB/s.
+
+![porta usb-c]("https://unsplash.com/it/foto/un-primo-piano-di-un-computer-portatile-su-un-tavolo-xmcpNFyaP4c")
+
 È normale voler cercare sistemi su **come raffreddare un SSD esterno** per ovviare il problema del disco caldo molto caldo al tatto. Questo spesso causa disconnessioni durante le sessioni di gaming.
 
 In questa guida, andremo a capire inseme le cause di questo problema, capiremo quando é normale e quando é opportuno approfondire, trovando il modo corretto per ridurre la **temperatura** senza compromettete le **prestazioni**.
 
 ## Perchè Crucial X10 Pro si surriscalda con i giochi?
+
+![gaming room fornite]("https://res.cloudinary.com/dyzmnowin/image/upload/v1782933981/postazione_gaming_av6dqn.png")
 
 Prima di allarmarsi, cerchiamo di capire come funziona Crucial X10.
 Si tratta di un SSD esterno principalmente utilizzato per il gaming, basato su tecnologia NVMe che a differenza di quelli classici, questo dispositivo é stato progettato per trasferire enormi quantitá di dati in tempi molto ridotti rispetto agli altri.

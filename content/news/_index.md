@@ -1,3 +1,3 @@
 +++
-title = "news pGe"
+title = "News"
 +++

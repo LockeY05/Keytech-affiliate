@@ -1,6 +1,6 @@
 +++
 
-title = "Categorie Blog"
+title = "Categorie"
 date = "2026-06-30T14:37:49Z"
 draft = false
 

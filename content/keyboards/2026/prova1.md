@@ -27,7 +27,7 @@ summary = ""
 
 # slug: sovrascrive la parte finale dell'URL — ottimizza per keyword
 # Lascia vuoto per usare il filename come slug
-slug = "prova 1"
+slug = ""
 
 # canonicalURL: <link rel="canonical"> — critica contro duplicate content
 # Lascia vuoto: Hugo la genera automaticamente con il permalink
